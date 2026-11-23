@@ -149,9 +149,32 @@ function playSE(id) {
   const audio =
     document.getElementById(id);
 
-  if (!audio) return;
+  switch (id) {
 
-   audio.volume = 0.6;
+    case "se-correct":
+      audio.volume = 0.2;
+      break;
+
+    case "se-wrong":
+      audio.volume = 0.9;
+      break;
+
+    case "se-explosion":
+      audio.volume = 1.0;
+      break;
+
+    case "se-warning":
+      audio.volume = 0.9;
+      break;
+
+    case "se-set":
+      audio.volume = 1.0;
+      break;
+
+    default:
+      audio.volume = 1.0;
+
+  }
 
   audio.currentTime = 0;
 

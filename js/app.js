@@ -178,6 +178,8 @@ function startQuestion() {
       "bomb"
     ).hidden = false;
 
+    playSE("se-set");
+
     updateCurrentPlayer();
 
     updateBombHeight();
