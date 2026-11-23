@@ -1,0 +1,508 @@
+[
+    {
+  "id": 1,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「輝く!日本レコード大賞」において、2010年以降に大賞を受賞した歌手・グループを5つ答えよ",
+  "answers": [
+    "EXILE",
+    "AKB48",
+    "三代目 J Soul Brothers",
+    "西野カナ",
+    "乃木坂46",
+    "Foorin",
+    "LiSA",
+    "Da-iCE",
+    "SEKAI NO OWARI",
+    "Mrs. GREEN APPLE"
+  ]
+},
+{
+  "id": 2,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「M-1グランプリ」において、2015年～2025年に優勝したコンビを5つ答えよ",
+  "answers": [
+    "トレンディエンジェル",
+    "銀シャリ",
+    "とろサーモン",
+    "霜降り明星",
+    "ミルクボーイ",
+    "マヂカルラブリー",
+    "錦鯉",
+    "ウエストランド",
+    "令和ロマン",
+    "たくろう"
+  ]
+},
+{
+  "id": 3,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「R-1グランプリ」において、2016年～2026年に優勝した芸人を5人答えよ",
+  "answers": [
+    "ハリウッドザコシショウ",
+    "アキラ100%",
+    "濱田祐太郎",
+    "粗品",
+    "野田クリスタル",
+    "ゆりやんレトリィバァ",
+    "お見送り芸人しんいち",
+    "田津原理音",
+    "街裏ぴんく",
+    "友田オレ",
+    "今井らいぱち"
+  ]
+},
+ {
+  "id": 4,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2005年～2026年の国立競技場(新旧問わず)においてライブを行った歌手・グループを5つ答えよ",
+  "answers": [
+    "SMAP",
+    "DREAMS COME TRUE",
+    "嵐",
+    "L’Arc〜en〜Ciel",
+    "ももいろクローバーZ",
+    "AKB48",
+    "矢沢永吉",
+    "めいちゃん",
+    "Ado",
+    "Snow Man",
+    "櫻坂46",
+    "Mrs. GREEN APPLE",
+    "=LOVE",
+    "TWICE"
+  ]
+ },
+ {
+"id": 5,
+"genre": "entertainment",
+"targetCount": 5,
+"question": "NHK紅白歌合戦において、2010年以降に紅組司会を務めた人物を5人答えよ",
+"answers": [
+"松下奈緒",
+"井上真央",
+"堀北真希",
+"綾瀬はるか",
+"吉高由里子",
+"有村架純",
+"広瀬すず",
+"二階堂ふみ",
+"川口春奈",
+"橋本環奈",
+"伊藤沙莉"
+]
+},
+{
+"id": 6,
+"genre": "entertainment",
+"targetCount": 5,
+"question": "スタジオジブリ作品を5つ答えよ",
+"answers": [
+"風の谷のナウシカ",
+"天空の城ラピュタ",
+"となりのトトロ",
+"火垂るの墓",
+"魔女の宅急便",
+"おもひでぽろぽろ",
+"紅の豚",
+"平成狸合戦ぽんぽこ",
+"耳をすませば",
+"もののけ姫",
+"千と千尋の神隠し",
+"ハウルの動く城",
+"崖の上のポニョ",
+"ゲド戦記",
+"風立ちぬ",
+"君たちはどう生きるか"
+]
+},
+{
+  "id": 7,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2010年～2026年のNHK大河ドラマでモデルとなった人物を5人答えよ",
+  "answers": [
+    "坂本龍馬",
+    "江",
+    "平清盛",
+    "新島八重",
+    "黒田官兵衛",
+    "杉文",
+    "真田幸村",
+    "井伊直虎",
+    "西郷隆盛",
+    "金栗四三",
+    "明智光秀",
+    "渋沢栄一",
+    "北条義時",
+    "徳川家康",
+    "紫式部",
+    "蔦屋重三郎",
+    "豊臣秀吉"
+  ]
+},
+{
+  "id": 8,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2022年～2026年のNHK紅白歌合戦で司会を務めた人物を5人答えよ",
+  "answers": [
+    "芦田愛菜",
+    "堺雅人",
+    "二宮和也",
+    "綾瀬はるか",
+    "今田美桜",
+    "鈴木奈穂子",
+    "有吉弘行",
+    "橋本環奈",
+    "伊藤沙莉",
+    "浜辺美波",
+    "高瀬耕造",
+    "大泉洋",
+    "桑子真帆"
+  ]
+},
+{
+  "id": 9,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "キングオブコントにおいて、2008年～2026年に優勝したコンビ・グループを5つ答えよ",
+  "answers": [
+    "バッファロー吾郎",
+    "東京03",
+    "キングオブコメディ",
+    "ロバート",
+    "バイきんぐ",
+    "かもめんたる",
+    "シソンヌ",
+    "コロコロチキチキペッパーズ",
+    "ライス",
+    "かまいたち",
+    "ハナコ",
+    "どぶろっく",
+    "ジャルジャル",
+    "空気階段",
+    "ビスケットブラザーズ",
+    "サルゴリラ",
+    "ラブレターズ",
+    "ロングコートダディ",
+    "ジェラードン"
+  ]
+},
+{
+  "id": 10,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「KAT-TUN」結成時のメンバーの名前をフルネームで5人答えよ",
+  "answers": [
+    "亀梨和也",
+    "赤西仁",
+    "田口淳之介",
+    "田中聖",
+    "上田竜也",
+    "中丸雄一"
+  ]
+},
+{
+  "id": 11,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「SMAP」解散時に所属していたメンバーをフルネームで5人答えよ",
+  "answers": [
+    "中居正広",
+    "木村拓哉",
+    "稲垣吾郎",
+    "草彅剛",
+    "香取慎吾"
+  ]
+},
+{
+  "id": 12,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「嵐」に所属していたメンバーをフルネームで5人答えよ",
+  "answers": [
+    "大野智",
+    "二宮和也",
+    "櫻井翔",
+    "相葉雅紀",
+    "松本潤"
+  ]
+},
+{
+  "id": 13,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "「V6」に所属していたメンバーをフルネームで5人答えよ",
+  "answers": [
+    "坂本昌行",
+    "長野博",
+    "井ノ原快彦",
+    "森田剛",
+    "三宅健",
+    "岡田准一"
+  ]
+},
+{
+  "id": 14,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点で「timelesz」に所属しているメンバーをフルネームで5人答えよ",
+  "answers": [
+    "佐藤勝利",
+    "菊池風磨",
+    "松島聡",
+    "寺西拓人",
+    "原嘉孝",
+    "橋本将生",
+    "篠塚大輝"
+  ]
+},
+{
+  "id": 15,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のQuizKnockメンバーを5人答えよ",
+  "answers": [
+    "伊沢拓司",
+    "河村拓哉",
+    "ふくらP",
+    "鶴崎修功",
+    "須貝駿貴",
+    "山本祥彰",
+    "東問",
+    "東言"
+  ]
+},
+{
+  "id": 16,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "スピッツのシングル売上TOP10作品を5つ答えよ",
+  "answers": [
+    "ロビンソン",
+    "チェリー",
+    "空も飛べるはず",
+    "涙がキラリ☆",
+    "渚",
+    "スカーレット",
+    "夢じゃない",
+    "遥か",
+    "運命の人",
+    "スターゲイザー"
+  ]
+},
+{
+  "id": 17,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "YouTuber『東海オンエア』に存在するメンバーカラーを5つ答えよ",
+  "answers": [
+    "ピンク",
+    "オレンジ",
+    "黄色",
+    "黄",
+    "緑",
+    "青",
+    "茶色",
+    "茶"
+  ]
+},
+{
+  "id": 18,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のMrs. GREEN APPLEのSpotify再生回数TOP10曲を5つ答えよ",
+  "answers": [
+    "インフェルノ",
+    "青と夏",
+    "点描の唄",
+    "ライラック",
+    "ダンスホール",
+    "ケセラセラ",
+    "Soranji",
+    "僕のこと",
+    "ロマンチシズム",
+    "Magic"
+  ]
+},
+{
+  "id": 19,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のYOASOBIのSpotify再生回数TOP10曲を5つ答えよ",
+  "answers": [
+    "アイドル",
+    "夜に駆ける",
+    "怪物",
+    "群青",
+    "祝福",
+    "ハルジオン",
+    "たぶん",
+    "三原色",
+    "勇者",
+    "アンコール"
+  ]
+},
+{
+  "id": 20,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のOfficial髭男dismのSpotify再生回数TOP10曲を5つ答えよ",
+  "answers": [
+    "Pretender",
+    "Subtitle",
+    "I LOVE...",
+    "Cry Baby",
+    "宿命",
+    "ミックスナッツ",
+    "115万キロのフィルム",
+    "イエスタデイ",
+    "Universe",
+    "ノーダウト"
+  ]
+},
+{
+  "id": 21,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のKing GnuのSpotify再生回数TOP10曲を5つ答えよ",
+  "answers": [
+    "白日",
+    "SPECIALZ",
+    "逆夢",
+    "飛行艇",
+    "一途",
+    "カメレオン",
+    "Teenager Forever",
+    "BOY",
+    "Prayer X",
+    "傘"
+  ]
+},
+{
+  "id": 22,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のback numberのSpotify再生回数TOP10曲を5つ答えよ",
+  "answers": [
+    "水平線",
+    "高嶺の花子さん",
+    "クリスマスソング",
+    "ハッピーエンド",
+    "花束",
+    "怪盗",
+    "アイラブユー",
+    "瞬き",
+    "ヒロイン",
+    "わたがし"
+  ]
+},
+{
+  "id": 23,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "サザンオールスターズのシングル売上TOP10作品を5つ答えよ",
+  "answers": [
+    "TSUNAMI",
+    "エロティカ・セブン",
+    "涙のキッス",
+    "真夏の果実",
+    "シュラバ★ラ★バンバ",
+    "みんなのうた",
+    "チャコの海岸物語",
+    "いとしのエリー",
+    "Ya Ya あの時代を忘れない",
+    "愛の言霊"
+  ]
+},
+{
+  "id": 24,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "THE FIRST TAKEの再生回数TOP15動画で歌唱しているアーティストを5組答えよ",
+  "answers": [
+    "DISH//",
+    "YOASOBI",
+    "LiSA",
+    "優里",
+    "Creepy Nuts",
+    "Uru",
+    "新しい学校のリーダーズ",
+    "nobodyknows+",
+    "milet",
+    "Aimer",
+    "幾田りら",
+    "BABYMONSTER"
+  ]
+},
+{
+  "id": 25,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "2026年11月時点のSpotify Artist100でTOP30に入るアーティストを5組答えよ",
+  "answers": [
+    "Mrs. GREEN APPLE",
+    "back number",
+    "Official髭男dism",
+    "OFFICIAL HIGE DANDISM",
+    "YOASOBI",
+    "Vaundy",
+    "あいみょん",
+    "Aimyon",
+    "米津玄師",
+    "Kenshi Yonezu",
+    "優里",
+    "Yuuri",
+    "King Gnu",
+    "BTS",
+    "藤井風",
+    "Fujii Kaze",
+    "Ado",
+    "ヨルシカ",
+    "Yorushika",
+    "マカロニえんぴつ",
+    "Number_i",
+    "HANA",
+    "スピッツ",
+    "SPITZ",
+    "Saucy Dog",
+    "Novelbright",
+    "NewJeans",
+    "Creepy Nuts",
+    "平井大",
+    "HIRAIDAI",
+    "BE:FIRST",
+    "Tani Yuuki",
+    "菅田将暉",
+    "SUDA MASAKI",
+    "TWICE",
+    "ちゃんみな",
+    "CHANMINA",
+    "Da-iCE",
+    "LE SSERAFIM",
+    "ONE OK ROCK"
+  ]
+},
+{
+  "id": 26,
+  "genre": "entertainment",
+  "targetCount": 5,
+  "question": "邦画の興行収入ランキングTOP10作品の作品名を5つ答えよ",
+  "answers": [
+    "鬼滅の刃",
+    "千と千尋の神隠し",
+    "君の名は。",
+    "ONE PIECE FILM RED",
+    "もののけ姫",
+    "ハウルの動く城",
+    "踊る大捜査線",
+    "崖の上のポニョ",
+    "すずめの戸締まり",
+    "天気の子"
+  ]
+}
+]

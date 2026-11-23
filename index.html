@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ファイブボンバー</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="app">
+
+
+    <section id="settings-screen">
+
+      <h2>プレイヤー設定</h2>
+
+      <label>
+
+プレイヤー名
+
+<input
+  type="text"
+  id="player-name"
+  value="あなた"
+>
+
+</label>
+
+      <div class="player-setting">
+        <label>プレイヤー1</label>
+        <select id="player1">
+          <option value="human">人間</option>
+          <option value="bot">BOT</option>
+        </select>
+      </div>
+
+      <div class="player-setting">
+        <label>プレイヤー2</label>
+        <select id="player2">
+          <option value="human">人間</option>
+          <option value="bot" selected>BOT</option>
+        </select>
+      </div>
+
+      <div class="player-setting">
+        <label>プレイヤー3</label>
+        <select id="player3">
+          <option value="human">人間</option>
+          <option value="bot" selected>BOT</option>
+        </select>
+      </div>
+
+      <div class="player-setting">
+        <label>プレイヤー4</label>
+        <select id="player4">
+          <option value="human">人間</option>
+          <option value="bot" selected>BOT</option>
+        </select>
+      </div>
+
+      <div class="player-setting">
+        <label>プレイヤー5</label>
+        <select id="player5">
+          <option value="human">人間</option>
+          <option value="bot" selected>BOT</option>
+        </select>
+      </div>
+
+      <label>
+BOT難易度(解答時の正答率)
+<select id="bot-difficulty">
+  <option value="hard">ハード(30%)</option>
+  <option value="normal">ノーマル(50%)</option>
+  <option value="easy">イージー(80%)</option>
+  <option value="perfect" selected>パーフェクト(100%)</option>
+</select>
+</label>
+
+      <h2>ジャンル選択</h2>
+
+      <div id="genre-list">
+
+        <label>
+          <input type="checkbox" checked value="geography">
+          地理
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="history">
+          歴史
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="japanese">
+          国語
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="sports">
+          スポーツ
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="entertainment">
+          エンタメ
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="sakurazaka46">
+          櫻坂46
+        </label>
+
+        <label>
+          <input type="checkbox" checked value="other">
+          その他
+        </label>
+
+      </div>
+
+      <button id="start-btn">
+        ゲーム開始
+      </button>
+
+    </section>
+
+    <section id="game-screen" hidden>
+
+  <h2 id="question">
+    問題がここに表示されます
+  </h2>
+
+  <div id="timer" hidden></div>
+
+  <div id="bomb">
+  💣
+</div>
+
+  <div id="players"></div>
+
+  <div id="answer-area">
+
+  <input
+    type="text"
+    id="answer-input"
+    placeholder="答えを入力"
+  >
+
+  <button id="answer-btn">
+    解答
+  </button>
+
+</div>
+
+<div id="answer-history"></div>
+
+<div id="flash"></div>
+
+</section>
+
+<section id="result-screen" hidden>
+
+  <h1 id="result-title">
+    RESULT
+  </h1>
+
+  <div id="result-score">
+    0 POINTS
+  </div>
+
+  <div id="result-detail"></div>
+
+  <div id="result-total"></div>
+
+  <button id="next-btn">
+    次の問題へ
+  </button>
+
+  <button id="finish-btn">
+    終了する
+  </button>
+
+</section>
+
+  </div>
+
+<audio
+  id="se-correct"
+  src="sounds/correct.mp3"
+  preload="auto">
+</audio>
+
+<audio
+  id="se-wrong"
+  src="sounds/wrong.mp3"
+  preload="auto">
+</audio>
+
+<audio
+  id="se-explosion"
+  src="sounds/explosion.mp3"
+  preload="auto">
+</audio>
+
+<audio
+  id="se-warning"
+  src="sounds/warning.mp3"
+  preload="auto">
+</audio>
+
+<audio
+  id="se-cleared"
+  src="sounds/cleared.mp3"
+  preload="auto">
+</audio>
+
+<script src="js/questions.js"></script>
+
+<script src="js/players.js"></script>
+<script src="js/bots.js"></script>
+<script src="js/bomb.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
