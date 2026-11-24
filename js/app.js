@@ -31,6 +31,35 @@ document
   );
 
 document
+  .getElementById("solo-btn")
+  .addEventListener(
+    "click",
+    openSettingsScreen
+  );
+
+document
+  .getElementById("create-room-btn")
+  .addEventListener(
+    "click",
+    () => {
+      alert(
+        "ルーム機能は準備中です"
+      );
+    }
+  );
+
+document
+  .getElementById("join-room-btn")
+  .addEventListener(
+    "click",
+    () => {
+      alert(
+        "ルーム機能は準備中です"
+      );
+    }
+  );
+
+document
   .getElementById("finish-btn")
   .addEventListener(
     "click",
@@ -41,8 +70,12 @@ document
       ).hidden = true;
 
       document.getElementById(
-        "settings-screen"
+        "title-screen"
       ).hidden = false;
+
+      document.getElementById(
+        "settings-screen"
+      ).hidden = true;
 
       document.getElementById(
         "answer-history"
@@ -62,6 +95,18 @@ startButton.addEventListener(
   "click",
   handleStart
 );
+
+function openSettingsScreen() {
+
+  document.getElementById(
+    "title-screen"
+  ).hidden = true;
+
+  document.getElementById(
+    "settings-screen"
+  ).hidden = false;
+
+}
 
 async function handleStart() {
 

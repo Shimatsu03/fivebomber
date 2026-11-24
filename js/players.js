@@ -1,11 +1,11 @@
 function createPlayers() {
 
   const seatBotNames = [
-  "シュン",
-  "オザム",
-  "タケル",
-  "ムラゼ",
-  "ﾀﾞｲｿﾞｰ"
+  "ナグラ",
+  "ハヤシ",
+  "ホリウチ",
+  "ムラセ",
+  "ハラダ"
 ];
 
   const players = [];

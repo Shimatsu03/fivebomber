@@ -69,21 +69,7 @@ button {
 
   gap: 8px;
 
-  #players {
-
-  margin-top: 20px;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  align-items: center;
-
-  gap: 8px;
-
   position: relative;
-
-}
 
 }
 
@@ -102,10 +88,12 @@ button {
   padding-bottom: 15px;
 
   border-radius: 12px 12px 0 0;
-
+ 
   box-shadow:
   0 0 20px rgba(255,255,255,0.15);
 
+  font-size: clamp(10px, 2.5vw, 18px);
+  
 }
 
 .player-card:nth-child(1) {
